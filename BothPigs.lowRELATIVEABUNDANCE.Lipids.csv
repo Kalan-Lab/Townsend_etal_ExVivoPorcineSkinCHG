@@ -1,0 +1,67 @@
+﻿LIPIDClass_CommonName,Timepoint,RelativeAbundance,smp
+ Acyl Sterol Glycosides,Baseline,0.0000162,All samples
+Ceramides,Baseline,0.47276211,All samples
+Cholesteryl ester,Baseline,0.00013935,All samples
+Diglycerides,Baseline,0.002409445,All samples
+Ether Lipids,Baseline,0.011132413,All samples
+Fatty acids,Baseline,0.006388929,All samples
+Fatty amides,Baseline,0.000502376,All samples
+Fatty Esters,Baseline,0.000158294,All samples
+Glycosyldiradylglycerols,Baseline,0.00030445,All samples
+Hexosylceramides,Baseline,0.000251334,All samples
+Lysophospholipids,Baseline,0.001738471,All samples
+Phosphatidylcholines,Baseline,0.036109709,All samples
+Phosphatidylethanolamines,Baseline,0.017268918,All samples
+Phosphatidylglycerols,Baseline,0.002680304,All samples
+Phosphatidylinositols,Baseline,0.003258712,All samples
+Phosphatidylserines,Baseline,0.001142889,All samples
+Secosteroids,Baseline,1.42E-05,All samples
+Sphingoid bases,Baseline,0.00001245,All samples
+Sphingomyelins,Baseline,0.010545025,All samples
+Sterols,Baseline,5.91E-05,All samples
+Steryl esters,Baseline,0.00002908,All samples
+Triglycerides,Baseline,0.436327828,All samples
+ Acyl Sterol Glycosides,PostIntervention,0.00001741,All samples
+Ceramides,PostIntervention,0.518466057,All samples
+Cholesteryl ester,PostIntervention,0.000088307,All samples
+Diglycerides,PostIntervention,0.002472031,All samples
+Ether Lipids,PostIntervention,0.009011382,All samples
+Fatty acids,PostIntervention,0.008500261,All samples
+Fatty amides,PostIntervention,0.000657767,All samples
+Fatty Esters,PostIntervention,0.00021293,All samples
+Glycosyldiradylglycerols,PostIntervention,0.000327832,All samples
+Hexosylceramides,PostIntervention,0.00022984,All samples
+Lysophospholipids,PostIntervention,0.001711073,All samples
+Phosphatidylcholines,PostIntervention,0.029082629,All samples
+Phosphatidylethanolamines,PostIntervention,0.011138729,All samples
+Phosphatidylglycerols,PostIntervention,0.002925056,All samples
+Phosphatidylinositols,PostIntervention,0.002821866,All samples
+Phosphatidylserines,PostIntervention,0.000911511,All samples
+Secosteroids,PostIntervention,0.0000198,All samples
+Sphingoid bases,PostIntervention,0,All samples
+Sphingomyelins,PostIntervention,0.009927303,All samples
+Sterols,PostIntervention,3.18E-05,All samples
+Steryl esters,PostIntervention,0.0000408,All samples
+Triglycerides,PostIntervention,0.40204669,All samples
+ Acyl Sterol Glycosides,EndPoint,1.39E-05,All samples
+Ceramides,EndPoint,0.628807008,All samples
+Cholesteryl ester,EndPoint,0.000131082,All samples
+Diglycerides,EndPoint,0.002453937,All samples
+Ether Lipids,EndPoint,0.006322947,All samples
+Fatty acids,EndPoint,0.011456263,All samples
+Fatty amides,EndPoint,0.000654627,All samples
+Fatty Esters,EndPoint,0.000287997,All samples
+Glycosyldiradylglycerols,EndPoint,0.000262192,All samples
+Hexosylceramides,EndPoint,0.000305486,All samples
+Lysophospholipids,EndPoint,0.001484431,All samples
+Phosphatidylcholines,EndPoint,0.020057405,All samples
+Phosphatidylethanolamines,EndPoint,0.007364066,All samples
+Phosphatidylglycerols,EndPoint,0.002780714,All samples
+Phosphatidylinositols,EndPoint,0.001160345,All samples
+Phosphatidylserines,EndPoint,0.000566576,All samples
+Secosteroids,EndPoint,0.00004969,All samples
+Sphingoid bases,EndPoint,1.26E-05,All samples
+Sphingomyelins,EndPoint,0.007434689,All samples
+Sterols,EndPoint,7.23E-05,All samples
+Steryl esters,EndPoint,0.000029675,All samples
+Triglycerides,EndPoint,0.308950799,All samples
