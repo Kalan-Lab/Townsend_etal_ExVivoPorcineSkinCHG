@@ -1,0 +1,77 @@
+﻿LargerLipidGroup.ABV,LargerLipidGroup,LIPIDClass_CommonName,LipidClass_LIPID_MAPS,LIPID_MAPS,LipidClass.ABV
+Fatty Acyls,FA,Fatty acids,Fatty acids and conjugates ,FA01,FA
+Glycerolipids ,GL,Monoglycerides,Monoradylglycerols ,GL01,MG
+Glycerolipids ,GL,Diglycerides,Diradylglycerols ,GL02,DG
+Glycerolipids ,GL,Triglycerides,Triradylglycerols ,GL03,TG
+Glycerophospholipids ,GP,Bis[monoaclglycero]phosphates,Monoacylglycerophosphomonoradylglycerols ,GP0410,BMP
+Glycerophospholipids ,GP,Cardiolipins,Glycerophosphoglycerophosphoglycerols ,GP12,CL
+Glycerophospholipids ,GP,Phsphatidic acids,Glycerophosphates ,GP10,PA
+Glycerophospholipids ,GP,Phosphatidylcholines,Glycerophosphocholines ,GP01,PC
+Glycerophospholipids ,GP,Phosphatidylethanolamines,Glycerophosphoethanolamines ,GP02,PE
+Glycerophospholipids ,GP,Phosphatidylglycerols,Glycerophosphoglycerols ,GP04,PG
+Glycerophospholipids ,GP,Phosphatidylglycerolphosphate,Glycerophosphoglycerophosphates ,GP05,PGP
+Glycerophospholipids ,GP,Phosphatidylinositols,Glycerophosphoinositols ,GP06,PI
+Glycerophospholipids ,GP,Phosphatidylinositol-monophosphate,Glycerophosphoinositol monophosphates ,GP07,PIP
+Glycerophospholipids ,GP,Phosphatidylinositol-3-phosphate,Glycerophosphoinositol monophosphates ,GP07,PIP[3′]
+Glycerophospholipids ,GP,Phosphatidylinositol-4-phosphate,Glycerophosphoinositol monophosphates ,GP07,PIP[4′]
+Glycerophospholipids ,GP,Phosphatidylinositol-5-phosphate,Glycerophosphoinositol monophosphates ,GP07,PIP[5′]
+Glycerophospholipids ,GP,Phosphatidylinositol-bisphosphate,Glycerophosphoinositol bisphosphates ,GP08,PIP2
+Glycerophospholipids ,GP,"Phosphatidylinositol-3,4-bisphosphate",Glycerophosphoinositol bisphosphates ,GP08,"PIP2[3′,4′]"
+Glycerophospholipids ,GP,"Phosphatidylinositol-3,5-bisphosphate",Glycerophosphoinositol bisphosphates ,GP08,"PIP2[3′,5′]"
+Glycerophospholipids ,GP,"Phosphatidylinositol-4,5-bisphosphate",Glycerophosphoinositol bisphosphates ,GP08,"PIP2[4′,5′]"
+Glycerophospholipids ,GP,Phosphatidylinositol-trisphosphate,Glycerophosphoinositol trisphosphates ,GP09,PIP3
+Glycerophospholipids ,GP,Phosphatidylserines,Glycerophosphoserines ,GP03,PS
+Glycerophospholipids ,GP,Lysophospholipids,,,Prefix L
+Sphingolipids ,SP,Ceramides,Ceramides ,SP02,Cer
+Sphingolipids ,SP,Ceramide-1-Phosphates,Ceramide-1-phosphates ,SP0205,C1P
+Sphingolipids ,SP,Sphingoid bases,Sphingoid bases ,SP01,SPH
+Sphingolipids ,SP,Sphingoid bases-1-phosphates,Sphingoid bases ,SP01,S1P
+Sphingolipids ,SP,Sphingomyelins,Phosphosphingolipids ,SP03,SM
+Sphingolipids ,SP,Hexosylceramides,Neutral glycosphingolipids ,SP05,HexCer
+Sphingolipids ,SP,Glycosylceramide,Neutral glycosphingolipids ,SP05,GlcCer
+Sphingolipids ,SP,Galactosylceramide,Neutral glycosphingolipids ,SP05,GalCer
+Sphingolipids ,SP,Dihexosylceramide,Neutral glycosphingolipids ,SP05,Hex2Cer
+Sphingolipids ,SP,Lactosylceramide,Neutral glycosphingolipids ,SP05,LacCer
+Sterol lipids ,ST,Sterols,Sterols ,ST01,ST
+Sterol lipids ,ST,Steryl esters,Steryl esters ,ST0102,SE
+Sterol lipids ,ST,Free cholesterol,Cholesterol ,LMST01010001,FC
+Sterol lipids ,ST,Cholesteryl ester,Cholesteryl esters ,ST0102,CE
+Sterol lipids ,ST,Bile acids,Bile acids and derivatives ,ST04,
+Sterol lipids ,ST,Bile acids,Cholic acid,,CA
+Sterol lipids ,ST,Bile acids,Chenodeoxycholic acid,,CDCA
+Sterol lipids ,ST,Bile acids,Deoxycholic acid,,DCA
+Sterol lipids ,ST,Bile acids,Ursodeoxycholic acid,,UDCA
+Sterol lipids ,ST,Bile acids,Hyodeoxycholic acid,,HDCA
+Sterol lipids ,ST,Bile acids,Lithocholic acid,,LCA
+Sterol lipids ,ST,Bile acids,Glycocholic acid,,GCA
+Sterol lipids ,ST,Bile acids,Taurocholic acid,,TCA
+Sphingolipids ,SP,Ceramides,Ceramide α-hydroxy fatty acid-dihydrosphingosine,,Cer_ADS
+Sphingolipids ,SP,Ceramides,Ceramide a-hydroxy fatty acid-phytospingosine,,Cer_AP
+Sphingolipids ,SP,Ceramides,Ceramide α-hydroxy fatty acid-sphingosine,,Cer_AS
+Sphingolipids ,SP,Ceramides,Ceramide β-hydroxy fatty acid-dihydrosphingosine,,Cer_BDS
+Sphingolipids ,SP,Ceramides,Ceramide β-hydroxy fatty acid-Sphingosine,,Cer_BS
+Sphingolipids ,SP,Ceramides,Ceramide esterified ω-hydroxy fatty acid-dihydrosphingosine,,Cer_EODS
+Sphingolipids ,SP,Ceramides,Ceramide esterified ω-hydroxy fatty acid-sphingosine,,Cer_EOS
+Sphingolipids ,SP,Ceramides,Ceramide non-hydroxyfatty acid-dihydrosphingosine,,Cer_NDS
+Sphingolipids ,SP,Ceramides,Ceramide non-hydroxyfatty acid-phytospingosine,,Cer_NP
+Sphingolipids ,SP,Ceramides,Ceramide non-hydroxyfatty acid-sphingosine,,Cer_NS
+Glycerolipids ,GL,Diglycerides,Diradylglycerols ,,DG_d5
+Glycerolipids ,GL,Diglycerides,Betaine diradylglycerols,GL07,DGCC
+Glycerolipids ,GL,Diglycerides,Betaine diradylglycerols,GL08,DGGA
+Glycerolipids ,GL,Diglycerides,Betaine diradylglycerols,GL09,DGTS
+Sphingolipids ,SP,Ceramides,Ceramide esterified ω-hydroxy fatty acid-sphingosine,,EOS(d9)
+Glycerophospholipids ,GP,Ether Lipids,Ether-linked Phosphatidylcholines,,EtherOxPC
+Glycerophospholipids ,GP,Ether Lipids,Ether-linked Phosphatidylcholines,,EtherPC
+Glycerophospholipids ,GP,Ether Lipids,Ester- linked Phosphatidylethanolamines,,EtherPE
+Fatty Acyls,FA,Fatty Esters,Fatty Acyl Esters of Hydroxy Fatty Acid,FA07,FAHFA
+Glycerolipids ,GL,Glycosyldiradylglycerols,Glycosyldiradylglycerols,GL05,GlcADG
+Sphingolipids ,SP,Hexosylceramides,Glucosylceramide a-hydroxy fatty acid-phytospingosine,,HexCer_AP
+Sphingolipids ,SP,Hexosylceramides,Glucosylceramide non-hydroxyfatty acid-dihydrosphingosine,,HexCer_NDS
+Glycerophospholipids ,GP,Lysophospholipids,Lysophosphatidylcholine,,LPC
+Glycerophospholipids ,GP,Lysophospholipids,Lysophosphatidylethanolamine,,LPE
+Fatty Acyls,FA,Fatty amides,Hydroxy fatty acids ,,NAE
+Sphingolipids ,SP,Sphingoid bases,Sphingoid bases ,,SPB
+Glycerolipids ,GL,Triglycerides,Triradylglycerols ,,TG_d5
+Fatty Acyls,FA, Acyl Sterol Glycosides, Acyl Sterol Glycosides,,ASG
+Sterol lipids ,ST,Secosteroids,Vitamin D3,,C17-carnitine(d3)
+Sterol lipids ,ST,Cholesteryl ester,Cholesteryl esters ,ST0102,CE_d7
