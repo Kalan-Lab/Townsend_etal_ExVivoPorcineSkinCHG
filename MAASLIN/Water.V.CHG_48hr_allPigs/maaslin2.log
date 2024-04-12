@@ -1,0 +1,74 @@
+2024-02-07 12:02:28 INFO::Writing function arguments to log file
+2024-02-07 12:02:28 DEBUG::Function arguments
+2024-02-07 12:02:28 DEBUG::Output folder: /Users/liztown/Documents/KalanLab/CHGproject/Aim2experiments/All3Replicates/16SanalysisALLpigs/Final_MAASLIN/Water.V.CHG_48hr_allPigs
+2024-02-07 12:02:28 DEBUG::Min Abundance: 0.010000
+2024-02-07 12:02:28 DEBUG::Min Prevalence: 0.100000
+2024-02-07 12:02:28 DEBUG::Normalization: TSS
+2024-02-07 12:02:28 DEBUG::Transform: LOG
+2024-02-07 12:02:28 DEBUG::Analysis method: LM
+2024-02-07 12:02:28 DEBUG::Max significance: 0.250000
+2024-02-07 12:02:28 DEBUG::Random effects: Pig
+2024-02-07 12:02:28 DEBUG::Fixed effects: WaterCHG
+2024-02-07 12:02:28 DEBUG::Correction method: BH
+2024-02-07 12:02:28 DEBUG::Standardize: TRUE
+2024-02-07 12:02:28 DEBUG::Cores: 1
+2024-02-07 12:02:28 INFO::Verifying options selected are valid
+2024-02-07 12:02:28 INFO::Determining format of input files
+2024-02-07 12:02:28 INFO::Input format is data samples as rows and metadata samples as rows
+2024-02-07 12:02:28 DEBUG::The following samples were found to have features but no metadata. They will be removed. LK16S005-001,LK16S005-002,LK16S005-003,LK16S005-004,LK16S005-005,LK16S005-006,LK16S005-007,LK16S005-008,LK16S005-009,LK16S005-010,LK16S005-011,LK16S005-012,LK16S005-013,LK16S005-014,LK16S005-015,LK16S005-016,LK16S005-017,LK16S005-018,LK16S005-019,LK16S005-020,LK16S005-021,LK16S005-022,LK16S005-023,LK16S005-024,LK16S005-025,LK16S005-026,LK16S005-027,LK16S005-028,LK16S005-029,LK16S005-030,LK16S005-031,LK16S005-032,LK16S005-033,LK16S005-034,LK16S005-035,LK16S005-036,LK16S005-037,LK16S005-038,LK16S005-039,LK16S005-040,LK16S005-041,LK16S005-042,LK16S005-043,LK16S005-044,LK16S005-045,LK16S005-046,LK16S005-047,LK16S005-048,LK16S005-049,LK16S005-050,LK16S005-051,LK16S005-052,LK16S005-053,LK16S005-054,LK16S005-055,LK16S005-056,LK16S005-057,LK16S005-058,LK16S005-059,LK16S005-060,LK16S005-061,LK16S005-062,LK16S005-063,LK16S005-064,LK16S005-065,LK16S005-066,LK16S005-067,LK16S005-068,LK16S005-069,LK16S005-070,LK16S005-071,LK16S005-072,LK16S005-073,LK16S005-074,LK16S005-075,LK16S005-076,LK16S005-077,LK16S005-078,LK16S005-079,LK16S005-080,LK16S005-081,LK16S005-085,LK16S005-086,LK16S005-087,LK16S005-091,LK16S005-092,LK16S005-093,LK16S008-001,LK16S008-002,LK16S008-003,LK16S008-004,LK16S008-005,LK16S008-006,LK16S008-007,LK16S008-008,LK16S008-009,LK16S008-010,LK16S008-011,LK16S008-012,LK16S008-013,LK16S008-014,LK16S008-015,LK16S008-016,LK16S008-017,LK16S008-018,LK16S008-019,LK16S008-020,LK16S008-021,LK16S008-022,LK16S008-023,LK16S008-024,LK16S008-025,LK16S008-026,LK16S008-027,LK16S008-028,LK16S008-029,LK16S008-030,LK16S008-031,LK16S008-032,LK16S008-033,LK16S008-034,LK16S008-035,LK16S008-036,LK16S008-037,LK16S008-038,LK16S008-039,LK16S008-040,LK16S008-041,LK16S008-042,LK16S008-043,LK16S008-044,LK16S008-045,LK16S008-046,LK16S008-048,LK16S008-049,LK16S008-050,LK16S008-051,LK16S008-052,LK16S008-053,LK16S008-054,LK16S008-055,LK16S008-057,LK16S008-058,LK16S008-059,LK16S008-060,LK16S008-061,LK16S008-062,LK16S008-063,LK16S008-065,LK16S008-066,LK16S008-067,LK16S008-068,LK16S008-069,LK16S008-070,LK16S008-071,LK16S008-073,LK16S008-074,LK16S008-075,LK16S008-076,LK16S008-077,LK16S008-078,LK16S008-079,LK16S008-081,LK16S008-082,LK16S008-083,LK16S008-084,LK16S008-085,LK16S008-086,LK16S008-087,LK16S008-089,LK16S008-090,LK16S008-091,LK16S008-092,LK16S008-093,LK16S008-094,LK16S008-095,LK16S008-097,LK16S008-099,LK16S008-100,LK16S008-103,LK16S008-104,LK16S008-105,LK16S008-107,LK16S008-109,LK16S008-110,LK16S008-111,LK16S008-112,LK16S008-113,LK16S008-115,LK16S008-117,LK16S008-119,LK16S008-120,LK16S008-121,LK16S008-122,LK16S008-123,LK16S008-125,LK16S008-126,LK16S008-127,LK16S008-128,LK16S008-129,LK16S008-130,LK16S008-131,LK16S008-133,LK16S008-134,LK16S008-135,LK16S008-136,LK16S008-137,LK16S008-138,LK16S008-139,LK16S008-140,LK16S008-141,LK16S008-142,LK16S008-143,LK16S008-144,LK16S008-145,LK16S008-146,LK16S008-147,LK16S008-148,LK16S008-149,LK16S008-150,LK16S008-151,LK16S008-152,LK16S008-153,LK16S008-154,LK16S008-155,LK16S008-156,LK16S008-157,LK16S008-158,LK16S008-159,LK16S008-160,LK16S008-161,LK16S008-162,LK16S008-163,LK16S008-164,LK16S008-165,LK16S008-166,LK16S008-167,LK16S008-169,LK16S008-170,LK16S008-171,LK16S008-172,LK16S008-173,LK16S008-175,LK16S008-177,LK16S008-178,LK16S008-179,LK16S008-180,LK16S008-181,LK16S008-183,LK16S008-185,LK16S008-186,LK16S008-187,LK16S008-188,LK16S008-189,LK16S008-190,LK16S008-191,LK16S008-193,LK16S008-194,LK16S008-195,LK16S008-196,LK16S008-197,LK16S008-198,LK16S011-369,LK16S011-370,LK16S011-371,LK16S011-372,LK16S011-373,LK16S011-374,LK16S011-375,LK16S011-376,LK16S011-377,LK16S011-378,LK16S011-379,LK16S011-380,LK16S011-381
+2024-02-07 12:02:28 DEBUG::The following samples were found to have metadata but no features. They will be removed. LK16S008-047,LK16S008-204,LK16S008-205
+2024-02-07 12:02:28 DEBUG::A total of 27 samples were found in both the data and metadata
+2024-02-07 12:02:28 DEBUG::Reordering data/metadata to use same sample ordering
+2024-02-07 12:02:28 INFO::Formula for random effects: expr ~ (1 | Pig)
+2024-02-07 12:02:28 INFO::Formula for fixed effects: expr ~  WaterCHG
+2024-02-07 12:02:28 INFO::Filter data based on min abundance and min prevalence
+2024-02-07 12:02:28 INFO::Total samples in data: 27
+2024-02-07 12:02:28 INFO::Min samples required with min abundance for a feature not to be filtered: 2.700000
+2024-02-07 12:02:28 INFO::Total filtered features: 213
+2024-02-07 12:02:28 INFO::Filtered feature names from abundance and prevalence filtering: Acholeplasma, Achromobacter, Acidaminococcus, Acidovorax, Actinobacillus, Actinobaculum, Actinomadura, Actinomyces, Actinomycetospora, Aggregatibacter, Agrobacterium, Agrococcus, Akkermansia, Alcaligenes, Alishewanella, Alkanindiges, Alloiococcus, Anaerococcus, Anaerovibrio, Anoxybacillus, Aquabacterium, Arcobacter, Arthrobacter, Atopobium, Bacteroides, Balneimonas, Bifidobacterium, Blautia, Brachybacterium, Brevibacillus, Brevibacterium, Brevundimonas, Bulleidia, Burkholderia, Butyricicoccus, Caldilinea, Campylobacter, Candidatus.Azobacteroides, Cardiobacterium, Cellulosimicrobium, CF231, Chryseomicrobium, Chthoniobacter, Citrobacter, Cloacibacterium, Clostridium, Cohnella, Comamonas, Coprococcus, Cronobacter, Dehalobacterium, Deinococcus, Delftia, Dermabacter, Dermacoccus, Dermatophilus, Desulfovibrio, Devosia, Dialister, Diaphorobacter, Dietzia, Dorea, Elizabethkingia, Elusimicrobium, Enterobacter, Enterococcus, Epulopiscium, Erysipelothrix, Ethanoligenens, Ewingella, Faecalibacterium, Fibrobacter, Filifactor, Finegoldia, Flavobacterium, Flexispira, Fluviicola, Friedmanniella, Fusobacterium, Gallicola, Gardnerella, Gemmata, Gemmiger, Geobacillus, Geodermatophilus, Georgenia, Gluconacetobacter, Glycomyces, Gordonia, Granulicatella, Guggenheimella, GW.34, Haemophilus, Halomonas, Helcobacillus, Helcococcus, Helicobacter, Hymenobacter, Janthinobacterium, Jeotgalicoccus, Kocuria, Kytococcus, Labrenzia, Lachnoanaerobaculum, Lachnobacterium, Lachnospira, Lactobacillus, Lactococcus, Lampropedia, Lautropia, Leptotrichia, Leucobacter, Leuconostoc, Listeria, Luteibacter, Lysobacter, Marmoricola, Massilia, Megasphaera, Methanobrevibacter, Microbacterium, Microbispora, Micrococcus, Mitsuokella, Modestobacter, Moryella, Mucilaginibacter, Mycoplasma, Myroides, N09, Neisseria, Nesterenkonia, Nocardioides, Novosphingobium, Ochrobactrum, Olsenella, Oribacterium, Ornithinimicrobium, Oscillospira, p.75.a5, Paenibacillus, Paludibacter, Pannonibacter, Parabacteroides, Paracoccus, Paraprevotella, Pediococcus, Pedobacter, Peptoniphilus, Peptostreptococcus, Petrobacter, ph2, Phascolarctobacterium, Planifilum, Planomicrobium, Pontibacter, Porphyromonas, Prevotella, Proteiniclasticum, Pseudaminobacter, Pseudochrobactrum, Pseudoclavibacter, Pseudomonas, Pseudonocardia, Pseudoxanthomonas, Psychrobacter, Rahnella, Rheinheimera, Rhizobium, Rhodobacter, Rhodococcus, Rhodoplanes, Roseburia, Roseomonas, Rubellimicrobium, Ruminococcus, Rummeliibacillus, Saccharibacillus, Salana, Sarcina, Selenomonas, Serratia, Shewanella, Skermanella, Solibacillus, Sphingobacterium, Sphingobium, Spirosoma, Sporosarcina, Stenotrophomonas, Streptococcus, Streptomyces, Succinivibrio, Synergistes, Terriglobus, Tessaracoccus, Thermicanus, Thermoactinomyces, Treponema, Trichococcus, Truepera, Trueperella, Uruburuella, Variovorax, Veillonella, WAL_1855D, Wautersiella, Weissella, Xanthobacter, Xanthomonas, YRC22, Cutibacterium, Eubacterium
+2024-02-07 12:02:28 INFO::Total filtered features with variance filtering: 2
+2024-02-07 12:02:28 INFO::Filtered feature names from variance filtering: SampleID, Grand.Total
+2024-02-07 12:02:28 INFO::Running selected normalization method: TSS
+2024-02-07 12:02:28 INFO::Applying z-score to standardize continuous metadata
+2024-02-07 12:02:29 INFO::Running selected transform method: LOG
+2024-02-07 12:02:29 INFO::Running selected analysis method: LM
+2024-02-07 12:02:29 INFO::Fitting model to feature number 1, Acinetobacter
+2024-02-07 12:02:29 INFO::Fitting model to feature number 2, Aerococcus
+2024-02-07 12:02:29 INFO::Fitting model to feature number 3, Bacillus
+2024-02-07 12:02:29 INFO::Fitting model to feature number 4, Corynebacterium
+2024-02-07 12:02:29 INFO::Fitting model to feature number 5, Erwinia
+2024-02-07 12:02:29 INFO::Fitting model to feature number 6, Macrococcus
+2024-02-07 12:02:29 INFO::Fitting model to feature number 7, Moraxella
+2024-02-07 12:02:30 INFO::Fitting model to feature number 8, Proteus
+2024-02-07 12:02:30 INFO::Fitting model to feature number 9, Rothia
+2024-02-07 12:02:30 INFO::Fitting model to feature number 10, SMB53
+2024-02-07 12:02:30 INFO::Fitting model to feature number 11, Staphylococcus
+2024-02-07 12:02:31 INFO::Fitting model to feature number 12, Turicibacter
+2024-02-07 12:02:31 INFO::Counting total values for each feature
+2024-02-07 12:02:31 INFO::Writing residuals to file /Users/liztown/Documents/KalanLab/CHGproject/Aim2experiments/All3Replicates/16SanalysisALLpigs/Final_MAASLIN/Water.V.CHG_48hr_allPigs/residuals.rds
+2024-02-07 12:02:31 INFO::Writing fitted values to file /Users/liztown/Documents/KalanLab/CHGproject/Aim2experiments/All3Replicates/16SanalysisALLpigs/Final_MAASLIN/Water.V.CHG_48hr_allPigs/fitted.rds
+2024-02-07 12:02:31 INFO::Writing extracted random effects to file /Users/liztown/Documents/KalanLab/CHGproject/Aim2experiments/All3Replicates/16SanalysisALLpigs/Final_MAASLIN/Water.V.CHG_48hr_allPigs/ranef.rds
+2024-02-07 12:02:31 INFO::Writing all results to file (ordered by increasing q-values): /Users/liztown/Documents/KalanLab/CHGproject/Aim2experiments/All3Replicates/16SanalysisALLpigs/Final_MAASLIN/Water.V.CHG_48hr_allPigs/all_results.tsv
+2024-02-07 12:02:31 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.250000 ) to file (ordered by increasing q-values): /Users/liztown/Documents/KalanLab/CHGproject/Aim2experiments/All3Replicates/16SanalysisALLpigs/Final_MAASLIN/Water.V.CHG_48hr_allPigs/significant_results.tsv
+2024-02-07 12:02:31 INFO::Writing heatmap of significant results to file: /Users/liztown/Documents/KalanLab/CHGproject/Aim2experiments/All3Replicates/16SanalysisALLpigs/Final_MAASLIN/Water.V.CHG_48hr_allPigs/heatmap.pdf
+2024-02-07 12:02:31 INFO::Writing association plots (one for each significant association) to output folder: /Users/liztown/Documents/KalanLab/CHGproject/Aim2experiments/All3Replicates/16SanalysisALLpigs/Final_MAASLIN/Water.V.CHG_48hr_allPigs
+2024-02-07 12:02:31 INFO::Plotting associations from most to least significant, grouped by metadata
+2024-02-07 12:02:31 INFO::Plotting data for metadata number 1, WaterCHG
+2024-02-07 12:02:31 INFO::Creating boxplot for categorical data, WaterCHG vs Corynebacterium
+2024-02-07 12:02:32 INFO::Creating boxplot for categorical data, WaterCHG vs Rothia
+2024-02-07 12:02:32 INFO::Creating boxplot for categorical data, WaterCHG vs Staphylococcus
+2024-02-07 12:02:32 INFO::Creating boxplot for categorical data, WaterCHG vs Corynebacterium
+2024-02-07 12:02:33 INFO::Creating boxplot for categorical data, WaterCHG vs Rothia
+2024-02-07 12:02:33 INFO::Creating boxplot for categorical data, WaterCHG vs Turicibacter
+2024-02-07 12:02:33 INFO::Creating boxplot for categorical data, WaterCHG vs Aerococcus
+2024-02-07 12:02:34 INFO::Creating boxplot for categorical data, WaterCHG vs SMB53
+2024-02-07 12:02:34 INFO::Creating boxplot for categorical data, WaterCHG vs Macrococcus
+2024-02-07 12:02:34 INFO::Creating boxplot for categorical data, WaterCHG vs Proteus
+2024-02-07 12:02:35 INFO::Creating boxplot for categorical data, WaterCHG vs Erwinia
+2024-02-07 12:02:35 INFO::Creating boxplot for categorical data, WaterCHG vs Erwinia
+2024-02-07 12:02:36 INFO::Creating boxplot for categorical data, WaterCHG vs SMB53
+2024-02-07 12:02:36 INFO::Creating boxplot for categorical data, WaterCHG vs Turicibacter
+2024-02-07 12:02:36 INFO::Creating boxplot for categorical data, WaterCHG vs Moraxella
+2024-02-07 12:02:37 INFO::Creating boxplot for categorical data, WaterCHG vs Bacillus
+2024-02-07 12:02:37 INFO::Creating boxplot for categorical data, WaterCHG vs Macrococcus
+2024-02-07 12:02:37 INFO::Creating boxplot for categorical data, WaterCHG vs Proteus
