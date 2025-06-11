@@ -119,6 +119,21 @@ remove_BadOTU = function(physeq, badTaxa){
   return(prune_taxa(allTaxa, physeq))
 }
 
+# negative and positive sequencing control check. Note that ps.Aim2_P2 and Aim2_P3 were the same sequencing run set (lk18S008)
+ps.NegPos1<- subset_samples(ps.Aim2_P1, sample_names(ps.Aim2_P1) %in%  c("LK16S005-097", "LK16S005-098")) 
+ps.NegPos2 <- subset_samples(ps.Aim2_P3, sample_names(ps.Aim2_P3) %in% c("LK16S008-199", "LK16S008-200"))
+ps.NegPos3 <- subset_samples(ps.Aim2_P3re, sample_names(ps.Aim2_P3re) %in% c("LK16S011-384", "LK16S011-056", "LK16S011-064"))
+ps.NegPos<- merge_phyloseq(ps.NegPos1, ps.NegPos2,ps.NegPos3)
+
+NegPos.df <- as.data.frame(psmelt(ps.NegPos))
+NegPos.df <- subset.data.frame(NegPos.df, Abundance >0)
+NegPos.df
+ps.NegPos_REl <- microbiome::transform(ps.NegPos, "compositional")
+NegPos_REl.df <- as.data.frame(psmelt(ps.NegPos_REl))
+NegPos_REl.df <-rbind(NegPos_REl.df,NegPos_11)
+NegPos_REl.df <- subset.data.frame(NegPos_REl.df, Abundance >= 0.000001)
+NegPos_REl.df
+
 # Removing contaminants 
 #ps.Decontam <- prune_taxa(!contamdf.prev$contaminant, ps.PSE) # REMOVING THE CONTAMINANTS identified via DECONTAM 
 ps.Decontam <- subset_taxa(ps.Aim2_P1, Family !="mitochondria")
