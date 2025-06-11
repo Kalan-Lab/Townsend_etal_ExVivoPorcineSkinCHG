@@ -212,7 +212,8 @@ ps.Decontam <- subset_taxa(ps.Decontam, Genus !="Tepidiphilus")
 ps.Decontam <- subset_taxa(ps.Decontam, Genus !="Thermomonas") 
 ps.Decontam <- subset_taxa(ps.Decontam, Genus !="Undibacterium") 
 
-ps.Decontam <- subset_samples(ps.Decontam, !sample_names(ps.Decontam) %in% c("LK16S008-199", "LK16S008-200")) # removing the negative control
+#ps.Decontam <- subset_samples(ps.Decontam, !sample_names(ps.Decontam) %in% c("LK16S008-199", "LK16S008-200")) # removing the negative control
+ps.Decontam <- subset_samples(ps.Decontam, !sample_names(ps.Decontam) %in% c("LK16S011-384", "LK16S011-056", "LK16S011-064", "LK16S011-368") # removing the negative controls
 ps.P3re <- phyloseq_filter_prevalence(ps.Decontam, prev.trh = 0.05, abund.trh = 10, threshold_condition = "OR")
 ps.P3re@sam_data$Pig[ps.P3re@sam_data$Pig == "Pig3"] <- "P3"
 
