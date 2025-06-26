@@ -1,0 +1,329 @@
+﻿Pig,Sample,DNAconc (ng/µl) ,PmaxxGroup,Group,TimeGroup,WaterCHG,Timepoint,Time,PMAxx
+P1,1-CB-1,4.26,CHG,CHG-B,C-B,CHG,Baseline,-12,Untreated
+P1,1-CBp-1,4.01,CHGp,CHG-B-PMAxx,C-B,CHG,Baseline,-12,PMAxx
+P1,1-FB-1,5.76,Full,Full-B,F-B,Full,Baseline,-12,Untreated
+P1,1-FBp-1,5.8,Fullp,Full-B-PMAxx,F-B,Full,Baseline,-12,PMAxx
+P1,1-WB-1,4.32,Water,Water-B,W-B,Water,Baseline,-12,Untreated
+P1,1-WBp-1,4.29,Waterp,Water-B-PMAxx,W-B,Water,Baseline,-12,PMAxx
+P1,1-C0-1,4.21,CHG,CHG-0,C-0,CHG,0 hr,0,Untreated
+P1,1-C0-2,3.45,CHG,CHG-0,C-0,CHG,0 hr,0,Untreated
+P1,1-C0-3,3.33,CHG,CHG-0,C-0,CHG,0 hr,0,Untreated
+P1,1-C0p-1,3.94,CHGp,CHG-0-PMAxx,Cp-0,CHG,0 hr,0,PMAxx
+P1,1-C0p-2,3.52,CHGp,CHG-0-PMAxx,Cp-0,CHG,0 hr,0,PMAxx
+P1,1-C0p-3,2.67,CHGp,CHG-0-PMAxx,Cp-0,CHG,0 hr,0,PMAxx
+P1,1-F0-1,4.43,Full,Full-0,F-0,Full,0 hr,0,Untreated
+P1,1-F0-2,3.89,Full,Full-0,F-0,Full,0 hr,0,Untreated
+P1,1-F0-3,4.01,Full,Full-0,F-0,Full,0 hr,0,Untreated
+P1,1-F0p-1,4.16,Fullp,Full-0-PMAxx,Fp-0,Full,0 hr,0,PMAxx
+P1,1-F0p-2,3.54,Fullp,Full-0-PMAxx,Fp-0,Full,0 hr,0,PMAxx
+P1,1-F0p-3,3.86,Fullp,Full-0-PMAxx,Fp-0,Full,0 hr,0,PMAxx
+P1,1-W0-1,5.95,Water,Water-0,W-0,Water,0 hr,0,Untreated
+P1,1-W0-2,5.31,Water,Water-0,W-0,Water,0 hr,0,Untreated
+P1,1-W0-3,4.33,Water,Water-0,W-0,Water,0 hr,0,Untreated
+P1,1-W0p-1,5.05,Waterp,Water-0-PMAxx,Wp-0,Water,0 hr,0,PMAxx
+P1,1-W0p-2,4.56,Waterp,Water-0-PMAxx,Wp-0,Water,0 hr,0,PMAxx
+P1,1-W0p-3,4.12,Waterp,Water-0-PMAxx,Wp-0,Water,0 hr,0,PMAxx
+P1,1-W06-1,4.17,Water,Water-6,W-6,Water,6 hr,6,Untreated
+P1,1-W06-2,4.5,Water,Water-6,W-6,Water,6 hr,6,Untreated
+P1,1-W06-3,4.12,Water,Water-6,W-6,Water,6 hr,6,Untreated
+P1,1-W06p-1,4.24,Waterp,Water-6-PMAxx,Wp-6,Water,6 hr,6,PMAxx
+P1,1-W06p-2,4.38,Waterp,Water-6-PMAxx,Wp-6,Water,6 hr,6,PMAxx
+P1,1-W06p-3,3.95,Waterp,Water-6-PMAxx,Wp-6,Water,6 hr,6,PMAxx
+P1,1-C06-1,4.34,CHG,CHG-6,C-6,CHG,6 hr,6,Untreated
+P1,1-C06-2,3.77,CHG,CHG-6,C-6,CHG,6 hr,6,Untreated
+P1,1-C06-3,3.73,CHG,CHG-6,C-6,CHG,6 hr,6,Untreated
+P1,1-C06p-1,3.88,CHGp,CHG-6-PMAxx,Cp-6,CHG,6 hr,6,PMAxx
+P1,1-C06p-2,3.48,CHGp,CHG-6-PMAxx,Cp-6,CHG,6 hr,6,PMAxx
+P1,1-C06p-3,3.62,CHGp,CHG-6-PMAxx,Cp-6,CHG,6 hr,6,PMAxx
+P1,1-F06-1,3.46,Full,Full-6,F-6,Full,6 hr,6,Untreated
+P1,1-F06-2,3.87,Full,Full-6,F-6,Full,6 hr,6,Untreated
+P1,1-F06-3,3.35,Full,Full-6,F-6,Full,6 hr,6,Untreated
+P1,1-F06p-1,3.75,Fullp,Full-6-PMAxx,Fp-6,Full,6 hr,6,PMAxx
+P1,1-F06p-2,3.96,Fullp,Full-6-PMAxx,Fp-6,Full,6 hr,6,PMAxx
+P1,1-F06p-3,3.23,Fullp,Full-6-PMAxx,Fp-6,Full,6 hr,6,PMAxx
+P1,1-W12-1,4.3,Water,Water-12,W-12,Water,12 hr,12,Untreated
+P1,1-W12p-1,4.14,Waterp,Water-12-PMAxx,Wp-12,Water,12 hr,12,PMAxx
+P1,1-C12-1,3.01,CHG,CHG-12,C-12,CHG,12 hr,12,Untreated
+P1,1-C12p-1,3.15,CHGp,CHG-12-PMAxx,Cp-12,CHG,12 hr,12,PMAxx
+P1,NegEx1.1,0,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P1,NegEx1.2,0,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P1,1-C12-2,3.76,CHG,CHG-12,C-12,CHG,12 hr,12,Untreated
+P1,1-C12-3,4.12,CHG,CHG-12,C-12,CHG,12 hr,12,Untreated
+P1,1-C12p-2,3.71,CHGp,CHG-12-PMAxx,Cp-12,CHG,12 hr,12,PMAxx
+P1,1-C12p-3,4.03,CHGp,CHG-12-PMAxx,Cp-12,CHG,12 hr,12,PMAxx
+P1,1-F12-1,4.16,Full,Full-12,F-12,Full,12 hr,12,Untreated
+P1,1-F12-2,4.05,Full,Full-12,F-12,Full,12 hr,12,Untreated
+P1,1-F12-3,4.73,Full,Full-12,F-12,Full,12 hr,12,Untreated
+P1,1-F12p-1,3.91,Fullp,Full-12-PMAxx,Fp-12,Full,12 hr,12,PMAxx
+P1,1-F12p-2,3.71,Fullp,Full-12-PMAxx,Fp-12,Full,12 hr,12,PMAxx
+P1,1-F12p-3,4.57,Fullp,Full-12-PMAxx,Fp-12,Full,12 hr,12,PMAxx
+P1,1-W12-2,5.2,Water,Water-12,W-12,Water,12 hr,12,Untreated
+P1,1-W12-3,5.37,Water,Water-12,W-12,Water,12 hr,12,Untreated
+P1,1-W12p-2,5.04,Waterp,Water-12-PMAxx,Wp-12,Water,12 hr,12,PMAxx
+P1,1-W12p-3,4.98,Waterp,Water-12-PMAxx,Wp-12,Water,12 hr,12,PMAxx
+P1,1-C24-1,5.42,CHG,CHG-24,C-24,CHG,24 hr,24,Untreated
+P1,1-C24-2,4.6,CHG,CHG-24,C-24,CHG,24 hr,24,Untreated
+P1,1-C24-3,4.41,CHG,CHG-24,C-24,CHG,24 hr,24,Untreated
+P1,1-C24p-1,5.08,CHGp,CHG-24-PMAxx,Cp-24,CHG,24 hr,24,PMAxx
+P1,1-C24p-2,4.86,CHGp,CHG-24-PMAxx,Cp-24,CHG,24 hr,24,PMAxx
+P1,1-C24p-3,4.21,CHGp,CHG-24-PMAxx,Cp-24,CHG,24 hr,24,PMAxx
+P1,NegEx2.1,0,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P1,NegEx2.2,0,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P1,1-F24-1,4.31,Full,Full-24,F-24,Full,24 hr,24,Untreated
+P1,1-F24-2,4.84,Full,Full-24,F-24,Full,24 hr,24,Untreated
+P1,1-F24-3,5.02,Full,Full-24,F-24,Full,24 hr,24,Untreated
+P1,1-F24p-1,4.09,Fullp,Full-24-PMAxx,Fp-24,Full,24 hr,24,PMAxx
+P1,1-F24p-2,4.7,Fullp,Full-24-PMAxx,Fp-24,Full,24 hr,24,PMAxx
+P1,1-F24p-3,4.53,Fullp,Full-24-PMAxx,Fp-24,Full,24 hr,24,PMAxx
+P1,1-W24-1,5.81,Water,Water-24,W-24,Water,24 hr,24,Untreated
+P1,1-W24-2,5.71,Water,Water-24,W-24,Water,24 hr,24,Untreated
+P1,1-W24-3,5.27,Water,Water-24,W-24,Water,24 hr,24,Untreated
+P1,1-W24p-1,5.64,Waterp,Water-24-PMAxx,Wp-24,Water,24 hr,24,PMAxx
+P1,1-W24p-2,5.23,Waterp,Water-24-PMAxx,Wp-24,Water,24 hr,24,PMAxx
+P1,1-W24p-3,5.08,Waterp,Water-24-PMAxx,Wp-24,Water,24 hr,24,PMAxx
+P1,NegEx3.1,0,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P1,NegEx3.2,0,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P1,1-C48-1,5.69,CHG,CHG-48,C-48,CHG,48 hr,48,Untreated
+P1,1-C48-2,4.83,CHG,CHG-48,C-48,CHG,48 hr,48,Untreated
+P1,1-C48-3,4.67,CHG,CHG-48,C-48,CHG,48 hr,48,Untreated
+P1,1-C48p-1,5.22,CHGp,CHG-48-PMAxx,Cp-48,CHG,48 hr,48,PMAxx
+P1,1-C48p-2,4.78,CHGp,CHG-48-PMAxx,Cp-48,CHG,48 hr,48,PMAxx
+P1,1-C48p-3,4.86,CHGp,CHG-48-PMAxx,Cp-48,CHG,48 hr,48,PMAxx
+P1,1-F48-1,4.24,Full,Full-48,F-48,Full,48 hr,48,Untreated
+P1,1-F48-2,4.78,Full,Full-48,F-48,Full,48 hr,48,Untreated
+P1,1-F48-3,4.03,Full,Full-48,F-48,Full,48 hr,48,Untreated
+P1,1-F48p-1,3.95,Fullp,Full-48-PMAxx,Fp-48,Full,48 hr,48,PMAxx
+P1,1-F48p-2,4.73,Fullp,Full-48-PMAxx,Fp-48,Full,48 hr,48,PMAxx
+P1,1-F48p-3,4.32,Fullp,Full-48-PMAxx,Fp-48,Full,48 hr,48,PMAxx
+P1,1-W48-1,5.5,Water,Water-48,W-48,Water,48 hr,48,Untreated
+P1,1-W48-2,5.47,Water,Water-48,W-48,Water,48 hr,48,Untreated
+P1,1-W48-3,5.08,Water,Water-48,W-48,Water,48 hr,48,Untreated
+P1,1-W48p-1,5.58,Waterp,Water-48-PMAxx,Wp-48,Water,48 hr,48,PMAxx
+P1,1-W48p-2,5.35,Waterp,Water-48-PMAxx,Wp-48,Water,48 hr,48,PMAxx
+P1,1-W48p-3,4.83,Waterp,Water-48-PMAxx,Wp-48,Water,48 hr,48,PMAxx
+P1,NegEx4.1,0.114,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P1,NegEx4.2,0,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P2,2-CB-1,3.87,CHG,CHG-B,C-B,CHG,Baseline,-12,Untreated
+P2,2-CB-2,3.08,CHG,CHG-B,C-B,CHG,Baseline,-12,Untreated
+P2,2-CBp-1,3.72,CHGp,CHG-B-PMAxx,C-B,CHG,Baseline,-12,PMAxx
+P2,2-CBp-2,2.99,CHGp,CHG-B-PMAxx,C-B,CHG,Baseline,-12,PMAxx
+P2,2-FB-1,2.51,Full,Full-B,F-B,Full,Baseline,-12,Untreated
+P2,2-FB-2,3.75,Full,Full-B,F-B,Full,Baseline,-12,Untreated
+P2,2-FBp-1,2.47,Fullp,Full-B-PMAxx,F-B,Full,Baseline,-12,PMAxx
+P2,2-FBp-2,2.65,Fullp,Full-B-PMAxx,F-B,Full,Baseline,-12,PMAxx
+P2,2-WB-1,2.73,Water,Water-B,W-B,Water,Baseline,-12,Untreated
+P2,2-WB-2,3.17,Water,Water-B,W-B,Water,Baseline,-12,Untreated
+P2,2-WBp-1,2.85,Waterp,Water-B-PMAxx,W-B,Water,Baseline,-12,PMAxx
+P2,2-WBp-2,2.96,Waterp,Water-B-PMAxx,W-B,Water,Baseline,-12,PMAxx
+P2,2-C0-1,2.66,CHG,CHG-0,C-0,CHG,0 hr,0,Untreated
+P2,2-C0-2,2.29,CHG,CHG-0,C-0,CHG,0 hr,0,Untreated
+P2,2-C0-3,3.17,CHG,CHG-0,C-0,CHG,0 hr,0,Untreated
+P2,2-C0p-1,2.86,CHGp,CHG-0-PMAxx,C-0,CHG,0 hr,0,PMAxx
+P2,2-C0p-2,2.05,CHGp,CHG-0-PMAxx,C-0,CHG,0 hr,0,PMAxx
+P2,2-C0p-3,2.28,CHGp,CHG-0-PMAxx,C-0,CHG,0 hr,0,PMAxx
+P2,2-F0-1,2.51,Full,Full-0,F-0,Full,0 hr,0,Untreated
+P2,2-F0-2,2.57,Full,Full-0,F-0,Full,0 hr,0,Untreated
+P2,2-F0p-1,2.14,Fullp,Full-0-PMAxx,F-0,Full,0 hr,0,PMAxx
+P2,2-F0p-2,2.7,Fullp,Full-0-PMAxx,F-0,Full,0 hr,0,PMAxx
+P2,NegEx5.1,0,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P2,NegEx5.2,0,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P2,2-F0-3,2.18,Full,Full-0,F-0,Full,0 hr,0,Untreated
+P2,2-F0p-3,2.03,Fullp,Full-0-PMAxx,F-0,Full,0 hr,0,PMAxx
+P2,2-W0-1,3.13,Water,Water-0,W-0,Water,0 hr,0,Untreated
+P2,2-W0-2,3.77,Water,Water-0,W-0,Water,0 hr,0,Untreated
+P2,2-W0-3,2.69,Water,Water-0,W-0,Water,0 hr,0,Untreated
+P2,2-W0p-1,3.72,Waterp,Water-0-PMAxx,W-0,Water,0 hr,0,PMAxx
+P2,2-W0p-2,3.04,Waterp,Water-0-PMAxx,W-0,Water,0 hr,0,PMAxx
+P2,2-W0p-3,3.8,Waterp,Water-0-PMAxx,W-0,Water,0 hr,0,PMAxx
+P2,2-C06-1,3.27,CHG,CHG-06,C-06,CHG,6 hr,6,Untreated
+P2,2-C06-2,2.99,CHG,CHG-06,C-06,CHG,6 hr,6,Untreated
+P2,2-C06-3,3.38,CHG,CHG-06,C-06,CHG,6 hr,6,Untreated
+P2,2-C06p-1,2.42,CHGp,CHG-06-PMAxx,C-06,CHG,6 hr,6,PMAxx
+P2,2-C06p-2,2.68,CHGp,CHG-06-PMAxx,C-06,CHG,6 hr,6,PMAxx
+P2,2-C06p-3,2.98,CHGp,CHG-06-PMAxx,C-06,CHG,6 hr,6,PMAxx
+P2,2-F06-1,2.47,Full,Full-06,F-06,Full,6 hr,6,Untreated
+P2,2-F06-2,3.16,Full,Full-06,F-06,Full,6 hr,6,Untreated
+P2,2-F06-3,2.74,Full,Full-06,F-06,Full,6 hr,6,Untreated
+P2,2-F06p-1,2.4,Fullp,Full-06-PMAxx,F-06,Full,6 hr,6,PMAxx
+P2,2-F06p-2,2.63,Fullp,Full-06-PMAxx,F-06,Full,6 hr,6,PMAxx
+P2,2-F06p-3,2.68,Fullp,Full-06-PMAxx,F-06,Full,6 hr,6,PMAxx
+P2,2-W06-1,4.03,Water,Water-06,W-06,Water,6 hr,6,Untreated
+P2,2-W06-2,4.68,Water,Water-06,W-06,Water,6 hr,6,Untreated
+P2,NegEx6.1,0,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P2,NegEx6.2,0,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P2,2-W06-3,3.55,Water,Water-06,W-06,Water,6 hr,6,Untreated
+P2,2-W06p-1,3.73,Waterp,Water-06-PMAxx,W-06,Water,6 hr,6,PMAxx
+P2,2-W06p-2,4.24,Waterp,Water-06-PMAxx,W-06,Water,6 hr,6,PMAxx
+P2,2-W06p-3,3.39,Waterp,Water-06-PMAxx,W-06,Water,6 hr,6,PMAxx
+P2,2-C12-1,3.88,CHG,CHG-12,C-12,CHG,12 hr,12,Untreated
+P2,2-C12p-1,3.67,CHGp,CHG-12-PMAxx,C-12,CHG,12 hr,12,PMAxx
+P2,2-C12-2,3.8,CHG,CHG-12,C-12,CHG,12 hr,12,Untreated
+P2,2-C12-3,4.22,CHG,CHG-12,C-12,CHG,12 hr,12,Untreated
+P2,2-C12p-2,3.72,CHGp,CHG-12-PMAxx,C-12,CHG,12 hr,12,PMAxx
+P2,2-C12p-3,4.3,CHGp,CHG-12-PMAxx,C-12,CHG,12 hr,12,PMAxx
+P2,2-F12-1,4.2,Full,Full-12,F-12,Full,12 hr,12,Untreated
+P2,2-F12p-1,4.24,Fullp,Full-12-PMAxx,F-12,Full,12 hr,12,PMAxx
+P2,2-F12-2,3.84,Full,Full-12,F-12,Full,12 hr,12,Untreated
+P2,2-F12-3,2.94,Full,Full-12,F-12,Full,12 hr,12,Untreated
+P2,2-F12p-2,3.64,Fullp,Full-12-PMAxx,F-12,Full,12 hr,12,PMAxx
+P2,2-F12p-3,2.98,Fullp,Full-12-PMAxx,F-12,Full,12 hr,12,PMAxx
+P2,2-W12-1,4.72,Water,Water-12,W-12,Water,12 hr,12,Untreated
+P2,2-W12-2,4.83,Water,Water-12,W-12,Water,12 hr,12,Untreated
+P2,2-W12-3,4.43,Water,Water-12,W-12,Water,12 hr,12,Untreated
+P2,2-W12p-1,4.58,Waterp,Water-12-PMAxx,W-12,Water,12 hr,12,PMAxx
+P2,2-W12p-2,4.42,Waterp,Water-12-PMAxx,W-12,Water,12 hr,12,PMAxx
+P2,2-W12p-3,4.28,Waterp,Water-12-PMAxx,W-12,Water,12 hr,12,PMAxx
+P2,NegEx7.1,0,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P2,NegEx7.2,0.203,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P2,2-C24-1,4.52,CHG,CHG-24,C-24,CHG,24 hr,24,Untreated
+P2,2-C24-2,4.62,CHG,CHG-24,C-24,CHG,24 hr,24,Untreated
+P2,2-C24-3,4.25,CHG,CHG-24,C-24,CHG,24 hr,24,Untreated
+P2,2-C24p-1,4.37,CHGp,CHG-24-PMAxx,C-24,CHG,24 hr,24,PMAxx
+P2,2-C24p-2,4.86,CHGp,CHG-24-PMAxx,C-24,CHG,24 hr,24,PMAxx
+P2,2-C24p-3,3.78,CHGp,CHG-24-PMAxx,C-24,CHG,24 hr,24,PMAxx
+P2,2-F24-1,4.38,Full,Full-24,F-24,Full,24 hr,24,Untreated
+P2,2-F24p-1,3.37,Fullp,Full-24-PMAxx,F-24,Full,24 hr,24,PMAxx
+P2,2-F24-2,3.62,Full,Full-24,F-24,Full,24 hr,24,Untreated
+P2,2-F24-3,4.41,Full,Full-24,F-24,Full,24 hr,24,Untreated
+P2,2-F24p-2,3.12,Fullp,Full-24-PMAxx,F-24,Full,24 hr,24,PMAxx
+P2,2-F24p-3,3.57,Fullp,Full-24-PMAxx,F-24,Full,24 hr,24,PMAxx
+P2,2-W24-1,4.82,Water,Water-24,W-24,Water,24 hr,24,Untreated
+P2,2-W24-2,4.73,Water,Water-24,W-24,Water,24 hr,24,Untreated
+P2,2-W24-3,5.02,Water,Water-24,W-24,Water,24 hr,24,Untreated
+P2,2-W24p-1,4.48,Waterp,Water-24-PMAxx,W-24,Water,24 hr,24,PMAxx
+P2,2-W24p-2,4.5,Waterp,Water-24-PMAxx,W-24,Water,24 hr,24,PMAxx
+P2,2-W24p-3,4.79,Waterp,Water-24-PMAxx,W-24,Water,24 hr,24,PMAxx
+P2,NegEx8.1,0,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P2,NegEx8.2,0,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P2,2-C48-1,4.16,CHG,CHG-48,C-48,CHG,48 hr,48,Untreated
+P2,2-C48-2,4.54,CHG,CHG-48,C-48,CHG,48 hr,48,Untreated
+P2,2-C48-3,4.36,CHG,CHG-48,C-48,CHG,48 hr,48,Untreated
+P2,2-C48p-1,3.86,CHGp,CHG-48-PMAxx,C-48,CHG,48 hr,48,PMAxx
+P2,2-C48p-2,4.27,CHGp,CHG-48-PMAxx,C-48,CHG,48 hr,48,PMAxx
+P2,2-C48p-3,4.18,CHGp,CHG-48-PMAxx,C-48,CHG,48 hr,48,PMAxx
+P2,2-F48-1,4.11,Full,Full-48,F-48,Full,48 hr,48,Untreated
+P2,2-F48-2,4.32,Full,Full-48,F-48,Full,48 hr,48,Untreated
+P2,2-F48-3,4.06,Full,Full-48,F-48,Full,48 hr,48,Untreated
+P2,2-F48p-1,4.12,Fullp,Full-48-PMAxx,F-48,Full,48 hr,48,PMAxx
+P2,2-F48p-2,4.08,Fullp,Full-48-PMAxx,F-48,Full,48 hr,48,PMAxx
+P2,2-F48p-3,3.82,Fullp,Full-48-PMAxx,F-48,Full,48 hr,48,PMAxx
+P2,2-W48-1,5.28,Water,Water-48,W-48,Water,48 hr,48,Untreated
+P2,2-W48-2,5.02,Water,Water-48,W-48,Water,48 hr,48,Untreated
+P2,2-W48-3,4.76,Water,Water-48,W-48,Water,48 hr,48,Untreated
+P2,2-W48p-1,5.08,Waterp,Water-48-PMAxx,W-48,Water,48 hr,48,PMAxx
+P2,2-W48p-2,4.74,Waterp,Water-48-PMAxx,W-48,Water,48 hr,48,PMAxx
+P2,2-W48p-3,4.63,Waterp,Water-48-PMAxx,W-48,Water,48 hr,48,PMAxx
+P2,NegEx9.1,0,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P2,NegEx9.2,0,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P3,3-CB-1,2.42,CHG,CHG-B,C-B,CHG,Baseline,-12,Untreated
+P3,3-CB-2,3.04,CHG,CHG-B,C-B,CHG,Baseline,-12,Untreated
+P3,3-CBp-1,2.29,CHGp,CHG-B-PMAxx,C-B,CHG,Baseline,-12,PMAxx
+P3,3-CBp-2,2.82,CHGp,CHG-B-PMAxx,C-B,CHG,Baseline,-12,PMAxx
+P3,3-FB-1,3.1,Full,Full-B,F-B,Full,Baseline,-12,Untreated
+P3,3-FB-2,2.65,Full,Full-B,F-B,Full,Baseline,-12,Untreated
+P3,3-FBp-1,3.12,Fullp,Full-B-PMAxx,F-B,Full,Baseline,-12,PMAxx
+P3,3-FBp-2,2.53,Fullp,Full-B-PMAxx,F-B,Full,Baseline,-12,PMAxx
+P3,3-WB-1,3.03,Water,Water-B,W-B,Water,Baseline,-12,Untreated
+P3,3-WB-2,2.91,Water,Water-B,W-B,Water,Baseline,-12,Untreated
+P3,3-WBp-1,2.15,Waterp,Water-B-PMAxx,W-B,Water,Baseline,-12,PMAxx
+P3,3-WBp-2,0.517,Waterp,Water-B-PMAxx,W-B,Water,Baseline,-12,PMAxx
+P3,3-C0-1,2.24,CHG,CHG-0,C-0,CHG,0 hr,0,Untreated
+P3,3-C0-2,2.73,CHG,CHG-0,C-0,CHG,0 hr,0,Untreated
+P3,3-C0-3,3.06,CHG,CHG-0,C-0,CHG,0 hr,0,Untreated
+P3,3-C0p-1,1.92,CHGp,CHG-0-PMAxx,C-0,CHG,0 hr,0,PMAxx
+P3,3-C0p-2,0.71,CHGp,CHG-0-PMAxx,C-0,CHG,0 hr,0,PMAxx
+P3,3-C0p-3,2.93,CHGp,CHG-0-PMAxx,C-0,CHG,0 hr,0,PMAxx
+P3,3-F0-2,2.33,Full,Full-0,F-0,Full,0 hr,0,Untreated
+p3,3-F0-3,2.58,Full,Full-0,F-0,Full,0 hr,0,Untreated
+P3,3-F0p-2,0.65,Fullp,Full-0-PMAxx,F-0,Full,0 hr,0,PMAxx
+P3,3-F0p-3,0.87,Fullp,Full-0-PMAxx,F-0,Full,0 hr,0,PMAxx
+P3,NegEx10.1,0,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P3,NegEx10.2,0,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P3,3-F0-1,2.9,Full,Full-0,F-0,Full,0 hr,0,Untreated
+P3,3-F0p-1,2.35,Fullp,Full-0-PMAxx,F-0,Full,0 hr,0,PMAxx
+P3,3-W0-1,3.13,Water,Water-0,W-0,Water,0 hr,0,Untreated
+P3,3-W0-2,2.82,Water,Water-0,W-0,Water,0 hr,0,Untreated
+P3,3-W0-3,3.22,Water,Water-0,W-0,Water,0 hr,0,Untreated
+P3,3-W0p-1,2.72,Waterp,Water-0-PMAxx,W-0,Water,0 hr,0,PMAxx
+P3,3-W0p-2,2.69,Waterp,Water-0-PMAxx,W-0,Water,0 hr,0,PMAxx
+P3,3-W0p-3,3.07,Waterp,Water-0-PMAxx,W-0,Water,0 hr,0,PMAxx
+P3,3-C06-1,2.85,CHG,CHG-06,C-06,CHG,6 hr,6,Untreated
+P3,3-C06-2,2.33,CHG,CHG-06,C-06,CHG,6 hr,6,Untreated
+P3,3-C06-3,2.79,CHG,CHG-06,C-06,CHG,6 hr,6,Untreated
+P3,3-C06p-1,2.27,CHGp,CHG-06-PMAxx,C-06,CHG,6 hr,6,PMAxx
+P3,3-C06p-2,2.09,CHGp,CHG-06-PMAxx,C-06,CHG,6 hr,6,PMAxx
+P3,3-C06p-3,2.36,CHGp,CHG-06-PMAxx,C-06,CHG,6 hr,6,PMAxx
+P3,3-W06-1,3.29,Water,Water-06,W-06,Water,6 hr,6,Untreated
+P3,3-W06-2,3.47,Water,Water-06,W-06,Water,6 hr,6,Untreated
+P3,3-W06-3,3.69,Water,Water-06,W-06,Water,6 hr,6,Untreated
+P3,3-W06p-1,3.18,Waterp,Water-06-PMAxx,W-06,Water,6 hr,6,PMAxx
+P3,3-W06p-2,3.16,Waterp,Water-06-PMAxx,W-06,Water,6 hr,6,PMAxx
+P3,3-W06p-3,3.33,Waterp,Water-06-PMAxx,W-06,Water,6 hr,6,PMAxx
+P3,3-F06-2,2.64,Full,Full-06,F-06,Full,6 hr,6,Untreated
+P3,3-F06p-2,2.36,Fullp,Full-06-PMAxx,F-06,Full,6 hr,6,PMAxx
+P3,NegEx11.1,0,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P3,NegEx11.2,0,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P3,3-F06-1,2.43,Full,Full-06,F-06,Full,6 hr,6,Untreated
+P3,3-F06-3,2.52,Full,Full-06,F-06,Full,6 hr,6,Untreated
+P3,3-F06p-1,2.06,Fullp,Full-06-PMAxx,F-06,Full,6 hr,6,PMAxx
+P3,3-F06p-3,1.77,Fullp,Full-06-PMAxx,F-06,Full,6 hr,6,PMAxx
+P3,3-C12-1,3.71,CHG,CHG-12,C-12,CHG,12 hr,12,Untreated
+P3,3-C12-2,3.39,CHG,CHG-12,C-12,CHG,12 hr,12,Untreated
+P3,3-C12-3,3.66,CHG,CHG-12,C-12,CHG,12 hr,12,Untreated
+P3,3-C12p-1,3.2,CHGp,CHG-12-PMAxx,C-12,CHG,12 hr,12,PMAxx
+P3,3-C12p-2,3.15,CHGp,CHG-12-PMAxx,C-12,CHG,12 hr,12,PMAxx
+P3,3-C12p-3,3.43,CHGp,CHG-12-PMAxx,C-12,CHG,12 hr,12,PMAxx
+P3,3-F12-1,3.24,Full,Full-12,F-12,Full,12 hr,12,Untreated
+P3,3-F12-2,3.58,Full,Full-12,F-12,Full,12 hr,12,Untreated
+P3,3-F12-3,3.42,Full,Full-12,F-12,Full,12 hr,12,Untreated
+P3,3-F12p-1,1.77,Fullp,Full-12-PMAxx,F-12,Full,12 hr,12,PMAxx
+P3,3-F12p-2,2.89,Fullp,Full-12-PMAxx,F-12,Full,12 hr,12,PMAxx
+P3,3-F12p-3,3.32,Fullp,Full-12-PMAxx,F-12,Full,12 hr,12,PMAxx
+P3,3-W12-1,4.06,Water,Water-12,W-12,Water,12 hr,12,Untreated
+P3,3-W12-2,3.87,Water,Water-12,W-12,Water,12 hr,12,Untreated
+P3,3-W12-3,4.15,Water,Water-12,W-12,Water,12 hr,12,Untreated
+P3,3-W12p-1,4.08,Waterp,Water-12-PMAxx,W-12,Water,12 hr,12,PMAxx
+P3,3-W12p-2,3.71,Waterp,Water-12-PMAxx,W-12,Water,12 hr,12,PMAxx
+P3,3-W12p-3,4.03,Waterp,Water-12-PMAxx,W-12,Water,12 hr,12,PMAxx
+P3,NegEx12.1,0,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P3,NegEx12.2,0,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P3,3-C24-1,3.65,CHG,CHG-24,C-24,CHG,24 hr,24,Untreated
+P3,3-C24-2,4.15,CHG,CHG-24,C-24,CHG,24 hr,24,Untreated
+P3,3-C24-3,4.26,CHG,CHG-24,C-24,CHG,24 hr,24,Untreated
+P3,3-C24p-1,3.5,CHGp,CHG-24-PMAxx,C-24,CHG,24 hr,24,PMAxx
+P3,3-C24p-2,3.76,CHGp,CHG-24-PMAxx,C-24,CHG,24 hr,24,PMAxx
+P3,3-C24p-3,3.95,CHGp,CHG-24-PMAxx,C-24,CHG,24 hr,24,PMAxx
+P3,3-F24-1,3.99,Full,Full-24,F-24,Full,24 hr,24,Untreated
+P3,3-F24-2,3.45,Full,Full-24,F-24,Full,24 hr,24,Untreated
+P3,3-F24-3,4.22,Full,Full-24,F-24,Full,24 hr,24,Untreated
+P3,3-F24p-1,2.52,Fullp,Full-24-PMAxx,F-24,Full,24 hr,24,PMAxx
+P3,3-F24p-2,4.06,Fullp,Full-24-PMAxx,F-24,Full,24 hr,24,PMAxx
+P3,3-F24p-3,3.81,Fullp,Full-24-PMAxx,F-24,Full,24 hr,24,PMAxx
+P3,3-W24-1,4.45,Water,Water-24,W-24,Water,24 hr,24,Untreated
+P3,3-W24-2,4.32,Water,Water-24,W-24,Water,24 hr,24,Untreated
+P3,3-W24-3,4.58,Water,Water-24,W-24,Water,24 hr,24,Untreated
+P3,3-W24p-1,4.33,Waterp,Water-24-PMAxx,W-24,Water,24 hr,24,PMAxx
+P3,3-W24p-2,4.27,Waterp,Water-24-PMAxx,W-24,Water,24 hr,24,PMAxx
+P3,3-W24p-3,4.24,Waterp,Water-24-PMAxx,W-24,Water,24 hr,24,PMAxx
+P3,NegEx13.1,0,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P3,NegEx13.2,0,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P3,3-C48-1,4.26,CHG,CHG-48,C-48,CHG,48 hr,48,Untreated
+P3,3-C48-2,3.68,CHG,CHG-48,C-48,CHG,48 hr,48,Untreated
+P3,3-C48-3,4.48,CHG,CHG-48,C-48,CHG,48 hr,48,Untreated
+P3,3-C48p-1,4.11,CHGp,CHG-48-PMAxx,C-48,CHG,48 hr,48,PMAxx
+P3,3-C48p-2,3.66,CHGp,CHG-48-PMAxx,C-48,CHG,48 hr,48,PMAxx
+P3,3-C48p-3,4.36,CHGp,CHG-48-PMAxx,C-48,CHG,48 hr,48,PMAxx
+P3,3-F48-1,3.93,Full,Full-48,F-48,Full,48 hr,48,Untreated
+P3,3-F48-2,4.21,Full,Full-48,F-48,Full,48 hr,48,Untreated
+P3,3-F48-3,4.15,Full,Full-48,F-48,Full,48 hr,48,Untreated
+P3,3-F48p-1,0.784,Fullp,Full-48-PMAxx,F-48,Full,48 hr,48,PMAxx
+P3,3-F48p-2,4.04,Fullp,Full-48-PMAxx,F-48,Full,48 hr,48,PMAxx
+P3,3-F48p-3,4.09,Fullp,Full-48-PMAxx,F-48,Full,48 hr,48,PMAxx
+P3,3-W48-1,4.61,Water,Water-48,W-48,Water,48 hr,48,Untreated
+P3,3-W48-2,4.73,Water,Water-48,W-48,Water,48 hr,48,Untreated
+P3,3-W48-3,4.29,Water,Water-48,W-48,Water,48 hr,48,Untreated
+P3,3-W48p-1,4.33,Waterp,Water-48-PMAxx,W-48,Water,48 hr,48,PMAxx
+P3,3-W48p-2,4.51,Waterp,Water-48-PMAxx,W-48,Water,48 hr,48,PMAxx
+P3,3-W48p-3,4.2,Waterp,Water-48-PMAxx,W-48,Water,48 hr,48,PMAxx
+P3,NegEx14.1,0,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
+P3,NegEx14.2,0,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx,NegEx
