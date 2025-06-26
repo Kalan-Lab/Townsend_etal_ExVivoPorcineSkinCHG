@@ -15,7 +15,7 @@ library(mixOmics)
 library(utils)
 library(EnhancedVolcano)
 
-setwd("/Users/liztown/Documents/KalanLab/Papers/PigSkinCHG/Rcode_FINAL")
+setwd("https://github.com/Kalan-Lab/Townsend_etal_ExVivoPorcineSkinCHG")
 
 #combining dataframes to make master metafile 
 # lipid classes https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3646453/
