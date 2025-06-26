@@ -22,7 +22,7 @@ library(reshape2)
 library(pheatmap)
 library(speedyseq)
 
-setwd("/Users/liztown/Documents/KalanLab/Papers/PigSkinCHG/Rcode_FINAL")
+setwd("https://github.com/Kalan-Lab/Townsend_etal_ExVivoPorcineSkinCHG")
 
 # Supplemental Figure 2 - PMAxx optomization experiment
 PCR <- read.csv("./PMAxxOptAllResults.csv")
