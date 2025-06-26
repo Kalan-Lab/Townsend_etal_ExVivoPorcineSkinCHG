@@ -9,10 +9,10 @@ library(ANCOMBC)
 library(reshape2)
 library(PairedData)
 
-setwd()
+setwd(https://github.com/Kalan-Lab/Townsend_etal_ExVivoPorcineSkinCHG)
 
 # Analysis of the Qubit DNA concentrations for the Pig CHG experiment (Not shown in paper)
-QPC<- as.data.frame(read.csv("/Users/liztown/Documents/KalanLab/Papers/PigSkinCHG/Rcode_FINAL/ForRevision/CompiledQubitDNA_PigCHGEx.v2.csv"))
+QPC<- as.data.frame(./CompiledQubitDNA_PigCHGEx.v2.csv"))
 QPC[QPC$DNAconc..ng.µl. == "Too low "] <- 0
 QPC[QPC$DNAconc..ng.µl. == "too low "] <- 0
 QPC$PmaxxGroup <- factor(QPC$PmaxxGroup, levels = c("Water", "Waterp", "CHG", "CHGp", "Full", "Fullp", "NegEx"))
@@ -30,7 +30,7 @@ QPC2 <- subset.data.frame(QPC, PmaxxGroup != "NegEx")
 ANOVout<- aov(DNAconc..ng.µl. ~  PMAxx+WaterCHG +Time+Pig, data = QPC2) #two way anaova
 summary(ANOVout)
 
-PairedPC<- as.data.frame(read.csv("/Users/liztown/Documents/KalanLab/Papers/PigSkinCHG/Rcode_FINAL/ForRevision/PigCHGQubitPaired.csv")) # dataframe with samples in order 
+PairedPC<- as.data.frame(read.csv("./PigCHGQubitPaired.csv")) # dataframe with samples in order 
 PMAxx.df <- subset.data.frame(PairedPC,  PMAxx == "PMAxx")
 PMAxx.vec <- PMAxx.df$DNAconc..ng.µl.
 Untreated.df <- subset.data.frame(PairedPC,  PMAxx == "Untreated")
@@ -39,7 +39,7 @@ wilcox_out <- wilcox.test(Untreated.vec, PMAxx.vec, paired = TRUE)
 wilcox_out # p-value = 4.481e-12
 
 # Analysis of Qubit DNA concentrations from the optomization experiments (Not Shown in Paper)
-QPO<- as.data.frame(read.csv("/Users/liztown/Documents/KalanLab/Papers/PigSkinCHG/Rcode_FINAL/ForRevision/CompiledQubitDNA_PigOpt.csv"))
+QPO<- as.data.frame(read.csv("./CompiledQubitDNA_PigOpt.csv"))
 ANOVout<- aov(DNAconc..ng.µl. ~  PMAxx+LHKC +PMAxxConcentration+Pig, data = QPO) #two way anaova
 summary(ANOVout)
 
