@@ -191,7 +191,7 @@ plotIndiv(result.pca.multi,
           # xlim = c(-63,82), ylim = c(-40,65),
           title = 'Both Pig lipids PCA plot')
 
-# Supplemental Table 10 - PERMANOVAS on PCA 
+# Supplemental Table 11 - PERMANOVAS on PCA 
 PCAcord<-result.pca.multi$variates[["X"]]
 names <- rownames(PCAcord)
 PCAcord1<- cbind(names,PCAcord)
@@ -218,7 +218,7 @@ adonis2(PCAcord_adonis ~ Timepoint + Base.Tx, data = sampledf, method = "eu",by 
 adonis2(PCAcord_adonis ~ Timepoint + Treatment, data = sampledf, method = "eu", by = "margin",permutations = 9999 )
 
 
-# Figure 4 C-E and Supplemental Table 11: differential expression analysis - difference between each timepoint 
+# Figure 4 C-E and Supplemental Table 12: differential expression analysis - difference between each timepoint 
 Lipid.FullMF <- read.csv("./LipidClasses_Aim2_MetaFile_Final.csv")
 Lipid.FullMF<-unique(as.data.frame(Lipid.FullMF))
 
