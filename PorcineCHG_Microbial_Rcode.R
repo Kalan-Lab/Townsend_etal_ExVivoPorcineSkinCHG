@@ -41,13 +41,14 @@ ggplot(data=PCR, aes(x=reorder(LHKC, LHKCorder)), color = factor(LHKC)) +
   theme(plot.title = element_text(hjust = 0.5), legend.position="bottom")
 
 
-# Figure `1: Ex vivo porcine CHG experiment microbial bioburden `
+# Figure 1: Ex vivo porcine CHG experiment microbial bioburden `
 # Figure 1C - Colony forming units 
 CFU <- read.csv("./Aim2CFU_ALL.csv")
 CFU$PigTxTime <- paste(CFU$Pig, CFU$TxTime)
 CFU<- CFU %>% group_by(PigTxTime) %>%  mutate(MeanLogCFU= mean(LogCFU))
 
 CFU$Treatment<- factor(CFU$Treatment, levels = c("Water", "Chloraprep", "Full"))
+CFU$Treatment2<- factor(CFU$Treatment2, levels = c("Baseline", "Water", "Chloraprep", "Full"))
 
 ggplot(data=CFU, aes(x=Timepoint, y=(MeanLogCFU), color = Treatment)) + 
   stat_summary(fun = "median", geom = "line", linetype = 2, linewidth = 1)  +
@@ -55,6 +56,19 @@ ggplot(data=CFU, aes(x=Timepoint, y=(MeanLogCFU), color = Treatment)) +
   scale_y_continuous( breaks = c(0, 2, 4, 6, 8)) + 
   scale_fill_manual(values = c("#027979","#FDB632","#F47439"))+
   scale_color_manual(values = c("#012828","#B67702","#9A3709"))+
+  scale_x_continuous(breaks = c(-12,0, 6, 12, 24, 48)) + 
+  geom_hline(yintercept=c(0.88), size = 1, linetype="dotted") +
+  theme_light() +
+  ggtitle("Aim 2; CFU results. all 3 pigs") +
+  ylab("Log10(CFU)") +
+  theme(plot.title = element_text(hjust = 0.5), text = element_text(size = 16))
+
+ggplot(data=CFU, aes(x=Timepoint, y=(MeanLogCFU), color = Treatment2)) + # baseline combined 
+  stat_summary(fun = "median", geom = "line", linetype = 2, linewidth = 1)  +
+  geom_boxplot(aes(x=Timepoint, y= MeanLogCFU, group = TxTime2, fill = Treatment2, color = Treatment2), alpha = 0.85, size = 1, width = 6, position = position_dodge2(1))+
+  scale_y_continuous(limits = c(0,9),  breaks = c(0, 2, 4, 6, 8)) + 
+  scale_fill_manual(values = c("#CCCCCC","#027979","#FDB632","#F47439"))+
+  scale_color_manual(values = c("#777777","#012828","#B67702","#9A3709"))+
   scale_x_continuous(breaks = c(-12,0, 6, 12, 24, 48)) + 
   geom_hline(yintercept=c(0.88), size = 1, linetype="dotted") +
   theme_light() +
@@ -85,7 +99,7 @@ ggplot(data=PCR, aes(x=Time, color = Treatment2)) +
 ggplot(data=PCR, aes(x=Time, color = Treatment2)) + 
   geom_boxplot(aes(x = Time, y = log10(TotalMeanBacteria), group = Group2, fill = Treatment2), size = 1, width = 6, position = position_dodge(1.7))+
   stat_summary(aes(y = log10(TotalMeanBacteria)), fun = "mean", geom = "line", size = 1.,position = position_dodge(1.7)) +
-  scale_linetype_manual("", values=c("solid"))+
+  scale_linetype_manual("", values=c("dashed"))+
   scale_fill_manual(values = c("#CCCCCC","#027979","#FDB632","#F47439"))+
   scale_color_manual(values = c("#777777","#012828","#B67702","#9A3709"))+
   scale_x_continuous(breaks = c(-12, 0, 6, 12, 24, 48), minor_breaks = NULL) + 
@@ -412,12 +426,11 @@ ggplot(OtherAim2, aes(x=Timepoint, y = Abundance, fill = Genus))+
   ylab("Relative Abundance")+
   theme_bw()+
   scale_fill_manual(values = c("#EEEEEE",
-                               colorRampPalette(c("#FFF1D7","#FED486","#FDB632","#F99536","#F47439","#D55E28","#9A3709" ))(12),
-                               colorRampPalette(c("#DDFAF9","#88D2D2","#33AAAA","#027979","#024E51","#012228" ))(26),
-                               colorRampPalette(c("#C3ECFD","#64B3D9","#337799","#023B58","#022B40" ,"#011B28"))(17)))+
+                              colorRampPalette(c("#742907","#C1450B","#F47439","#F9A575","#FEEAD7","#FDC671","#FDB632","#B67702",
+                                                  "#012828", "#025B5B","#027979","#63B7BC","#D7F8FE","#5ABBE3","#3092BD", "#023B58","#011B28"))(55)))+  
   theme(axis.text.x = element_text(size = 7)) +
   theme_light()+
-  ggtitle("Genus present > 0.2% of reads in a sample")
+  ggtitle("Genus present > 2% of reads in a sample")
 
 
 
@@ -455,7 +468,7 @@ ggplot(Aim2.Grouped.AllTop, aes(x= Timepoint, y =Genus, Phylum, fill = Phylum, c
 
 
 
-# Supplemental table 4:beta diversity all (total and viable samples)
+# Supplemental table 5:beta diversity all (total and viable samples)
 ps.Aim2.GenusGlom <- tax_glom(ps.Aim2, "Genus")
 min(sample_sums(ps.Aim2.GenusGlom))# minimum sample read is 0
 median(sample_sums(ps.Aim2.GenusGlom)) # 14809
@@ -477,7 +490,7 @@ adonis2(Aim2_bray ~ Base.WaterCHG, by= "margin", data = sampledf, permutations =
 adonis2(Aim2_bray ~ Pig+Base.WaterCHG, by= "margin", data = sampledf, permutations = 9999) # 
 
 
-### Supplemental Figure 3A-D and Supplemental table 5 - Pmaxx assessment 
+### Supplemental Figure 3A-D and Supplemental table 6 - Pmaxx assessment 
 GP = ps.rareAllPigs
 GP.ord <- ordinate(GP, "NMDS", "bray")
 
@@ -666,7 +679,7 @@ plot_ordination(GP, GP.ord, type="samples", color="Base.WaterCHG", shape = "Pig"
   theme_light()
 
 
-## Supplemental Figure 6A and supplemental table 7: distance from centroids for the Water- CHG compairison 
+## Supplemental Figure 6A and supplemental table 8: distance from centroids for the Water- CHG compairison 
 GP =rare.Viable.AllP 
 BWCF.meta =as.data.frame(sample_data(rare.Viable.AllP))
 BWCF <- factor( rare.Viable.AllP@sam_data$Base.WaterCHG)
@@ -694,7 +707,7 @@ ggplot(BWCF.dist2, aes(x= Base.WaterCHG, y= as.numeric(`dist.cent$distances`), c
   theme_light()
 
 
-#Supplemental Table 6:  Viable Microbiome - compairisons of treatment groups at each timepoint 
+#Supplemental Table 7:  Viable Microbiome - compairisons of treatment groups at each timepoint 
 PA <-rare.Viable.AllP 
 sampledf <- data.frame(sample_data(PA) ) # all timepoints
 Aim2_bray <- phyloseq::distance(PA, method = "bray")
@@ -791,8 +804,6 @@ sampledf <- data.frame(sample_data(HR.48) )
 Aim2_bray <- phyloseq::distance(HR.48, method = "bray")
 adonis2(Aim2_bray ~ WaterCHG, by= "margin", data = sampledf, permutations = 9999) # 
 adonis2(Aim2_bray ~ Pig+WaterCHG, by= "margin", data = sampledf, permutations = 9999) # 
-
-
 
 
 
@@ -913,7 +924,7 @@ fit_data = Maaslin2(
   reference= c("WaterCHG", "Full"),
   random_effects = c("Pig"))
 
-# Supplemental Table 8 continued. MAASLIN for CHG treatment groups v. eachother continued 
+# Supplemental Table 9 continued. MAASLIN for CHG treatment groups v. eachother continued 
 Viable.0<- subset.data.frame(Viable.Pigs, Timepoint == "0 hr")
 Viable.0.P1 <- subset.data.frame(Viable.0, Pig == "P1")
 Viable.0.P2 <- subset.data.frame(Viable.0, Pig == "P2")
